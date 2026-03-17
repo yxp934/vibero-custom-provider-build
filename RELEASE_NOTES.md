@@ -26,3 +26,5 @@ SHA-256:
 ## Distribution note
 
 This build is unsigned and not notarized, so macOS users should follow the instructions in `INSTALL-macOS.md`.
+
+If the GitHub release provides split assets, download every `Vibero-macOS-custom-provider-20260317.zip.part-*` file and run `assemble-vibero-macos.sh` before installing.
