@@ -3,6 +3,10 @@
 Package:
 `Vibero-macOS-custom-provider-20260317.zip`
 
+Repository paths:
+`downloads/Vibero-macOS-custom-provider-20260317.zip.part-000` ... `downloads/Vibero-macOS-custom-provider-20260317.zip.part-007`
+`assemble-vibero-macos.sh`
+
 Split release assets:
 `Vibero-macOS-custom-provider-20260317.zip.part-00` ... `part-07`
 
@@ -11,7 +15,7 @@ SHA-256:
 
 ## Normal install
 
-1. Download `Vibero-macOS-custom-provider-20260317.zip`.
+1. Reassemble `Vibero-macOS-custom-provider-20260317.zip`.
 2. Double-click the zip to extract `Vibero.app`.
 3. Drag `Vibero.app` into `/Applications`.
 
@@ -19,8 +23,8 @@ SHA-256:
 
 If the release ships split assets instead of a single zip:
 
-1. Download all `Vibero-macOS-custom-provider-20260317.zip.part-*` files into the same directory.
-2. Optionally download `assemble-vibero-macos.sh`.
+1. Download all `downloads/Vibero-macOS-custom-provider-20260317.zip.part-*` files into the same directory.
+2. Download `assemble-vibero-macos.sh`.
 3. In Terminal, change into the download directory and run:
 
 ```bash

@@ -6,6 +6,10 @@ Date:
 Package:
 `Vibero-macOS-custom-provider-20260317.zip`
 
+Repository paths:
+`downloads/Vibero-macOS-custom-provider-20260317.zip.part-000` ... `downloads/Vibero-macOS-custom-provider-20260317.zip.part-007`
+`assemble-vibero-macos.sh`
+
 SHA-256:
 `640a7e59f657131981b15582f5a7f62dd817d95cc4a90fa6629d6c7e82a95ff5`
 
@@ -27,4 +31,5 @@ SHA-256:
 
 This build is unsigned and not notarized, so macOS users should follow the instructions in `INSTALL-macOS.md`.
 
-If the GitHub release provides split assets, download every `Vibero-macOS-custom-provider-20260317.zip.part-*` file and run `assemble-vibero-macos.sh` before installing.
+The primary distribution path is the GitHub repository files at `downloads/Vibero-macOS-custom-provider-20260317.zip.part-*`.
+Download every part plus `assemble-vibero-macos.sh`, then reassemble the zip before installing.
